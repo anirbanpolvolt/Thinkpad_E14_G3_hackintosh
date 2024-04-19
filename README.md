@@ -2,6 +2,7 @@
 
 # This EFI works with Ventura and Sonoma 14.2.1(May not boot with 14.4+)
 # If it directly boots with Sonomo recovery files great but if didnt, then boot into Ventura(Using the recovery files) and then install the Sonoma update(14.2.1) using pkg file
+![Screenshot 2024-04-19 at 2 04 02 PM](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/9b99d80d-5b16-4eae-bf1f-b91471fb3482)
 
 What is working?
 --
@@ -30,6 +31,7 @@ Pre Install steps
 - Download OCAT tools 
 - Open the plist
 - Generate SystemUUID and SystemProductName(Very important if you to use Apple ID)
+  ![image](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/da84ecdf-4925-4e4b-8553-d6fca4c3cafb)
 - Save
 
 Steps installation for Ventura
@@ -37,6 +39,7 @@ Steps installation for Ventura
 - Download the Ventura recovery and set up the USB drive accordingly
 - Boot into USB drive and when the boot selector arrives press SPACE button
 - Select the Pendrive_Name(Dmg) option and then wait for a while for Mac recovery to boot up (It takes a while to boot)
+  ![19074528](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/c6b5902b-8ca6-4dbc-8246-595d62b43dd5)
 - Open disk utility, format partition in apfs and recover Ventura in it(It downloads 13+gb to takes a while)
 - After it reboots boot into Macos installer option 
 - After it reboots again select the drive name in which u installed mac os
@@ -53,6 +56,8 @@ Steps for Sonoma
 Post install steps
 - Install Radeon Gadget to mannually control the cpu performance
 - Set the CPU freq to 1600 Mhz for light task and you can increase it when you need
+![Screenshot 2024-04-19 at 2 00 43 PM](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/8bd25dd8-f9f1-48c0-b2e2-b665bed05c63)
+
 
 Hibernate (Thanks to Keylem for the refernce)
 By default Sleep works but after a while wakes up to Darksleep
@@ -115,6 +120,8 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 For the R7 Model
 --
 If you ever intend to use this EFI with a 8 core R7, please modify BA060000 0000 value to BA080000 0000 on config.plist, then rename your CPU using CPU-Name.command
+
+Feel free to raise any issues if you encounter any issue.
 
 Thanks to the magicians who made it possible: 
 --
