@@ -37,6 +37,7 @@ Pre Install steps
 Steps installation for Ventura
 - Use 16Gb USB drive and format it to FAT32(Higher capacity drive not recomended)
 - Download the Ventura recovery and set up the USB drive accordingly
+  ![Screenshot 2024-04-19 at 2 23 41 PM](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/09f5df5f-0a33-41a1-8821-21162abfb231)
 - Boot into USB drive and when the boot selector arrives press SPACE button
 - Select the Pendrive_Name(Dmg) option and then wait for a while for Mac recovery to boot up (It takes a while to boot)
   ![19074528](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/c6b5902b-8ca6-4dbc-8246-595d62b43dd5)
