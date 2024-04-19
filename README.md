@@ -30,7 +30,7 @@ Whats not working
 Pre Install steps
 - Download OCAT tools 
 - Open the plist
-- Generate SystemUUID and SystemProductName(Very important if you to use Apple ID)
+- Generate any Random SystemUUID and SystemProductName(Very important if you to use Apple ID)
   ![image](https://github.com/anirbanpolvolt/Thinkpad_E14_G3_hackintosh/assets/58901118/da84ecdf-4925-4e4b-8553-d6fca4c3cafb)
 - Save
 
