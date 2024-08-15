@@ -19,10 +19,11 @@ What is working?
 - Microphone
 - FileValut encription support (encouraged)
 - Mute button, airplane button (must be used with YogaSMC)
+- HDMI audio output
+
 
 Whats not working 
 - Hibernate(Partially) ()
-- HDMI audio output(NootedRed issue)
 - Fingerprint ofc
 - Cpu Power management (Cpu keeps boosting automatically unecessarily increaing the CPU temp. Can be managed mannually controlling)
 - Hardware acceleration in firefox and Chromiam browsers(Disable hw acceleration and it works without any issue)
